@@ -22,7 +22,7 @@ If you discover a vulnerability specific to BlueShell (e.g., GTK frontend flaws,
 2. Use **GitHub Private Vulnerability Reporting**:
    - Navigate to the repository's [Security Advisories](https://github.com/tuna-os/blueshell/security/advisories) tab.
    - Click **"Report a vulnerability"** to submit private details directly to project maintainers.
-3. If GitHub Private Vulnerability Reporting is unavailable, contact the project maintainers privately via the Tuna OS security contact or maintainer profile. Include:
+3. If GitHub Private Vulnerability Reporting is unavailable, open a private security advisory in [`tuna-os/tunaOS`](https://github.com/tuna-os/tunaOS/security/advisories), as described in the [TunaOS organization security policy](https://github.com/tuna-os/.github/blob/main/SECURITY.md). Include:
    - Description of the vulnerability and its potential impact
    - Affected versions or commit SHAs
    - Step-by-step reproduction instructions or proof-of-concept (PoC)
@@ -46,8 +46,8 @@ If you identify a vulnerability in upstream Ghostty core components (VT parsing,
 
 When a private security report is received for BlueShell:
 
-- **Initial Acknowledgment:** Maintainers aim to acknowledge receipt of private vulnerability reports within **48 hours**.
-- **Assessment & Triage:** Maintainers will evaluate severity, reproducibility, and scope within **7 days** and provide regular progress updates.
+- **Initial Acknowledgment:** Maintainers aim to acknowledge receipt of private vulnerability reports within **5 business days**, per the [TunaOS organization security policy](https://github.com/tuna-os/.github/blob/main/SECURITY.md).
+- **Assessment & Triage:** Maintainers will evaluate severity, reproducibility, and scope, and keep the reporter updated through the private advisory.
 - **Fix & Disclosure:** Security fixes will be developed in private security advisory forks and tested before release. Coordinated disclosure dates will be established with the reporter.
 
 ## Supported Versions
